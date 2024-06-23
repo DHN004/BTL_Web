@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="website icon" type="png" href="../img/logo-title.png">
+    <link rel="icon" href="img" type="image" style="width: 100%; height: 100%;">
+    <link rel="stylesheet" href="../src/login.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="tabs">
+                <a href="#" id="signInTab" class="active" onclick="showSignIn()">SIGN IN</a>
+                <a href="#" id="signUpTab" onclick="showSignUp()">SIGN UP</a>
+            </div>
+
+            <div id="signInForm" class="form_SignIn">
+                <h2>Sign in to access your Converse member perks.</h2>
+                <div class="perk1">
+                    <div class="perk2">
+                        <img src="../img/freeshiping.png" alt="Free Shipping & Returns">
+                        <p>Free Shipping & Returns</p>
+                    </div>
+                    <div class="perk2">
+                        <img src="../img/starr.png" alt="Exclusive Offers">
+                        <p>Exclusive Offers</p>
+                    </div>
+                    <div class="perk2">
+                        <img src="../img/images.png" alt="Better Shopping Experience">
+                        <p>Better Shopping Experience</p>
+                    </div>
+                </div>
+                <form>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <div class="form-options">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+                        <a href="#">FORGOT YOUR PASSWORD?</a>
+                    </div>
+                    <button type="submit">Sign In</button>
+                </form>
+                <p>Not a member? <a href="#" >SIGN UP</a></p> 
+                <p class="terms">
+                    By signing up for emails, you agree to the Converse <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+                </p>
+            </div>
+
+            <div id="signUpForm" >
+                <h2>Become a Converse member to get more.</h2>
+                <p>The first step to unlocking all the perks: enter your email address below.</p>
+                <div class="perk1">
+                    <div class="perk2">
+                        <img src="../img/freeshiping.png" alt="Free Shipping & Returns">
+                        <p>Free Shipping & Returns</p>
+                    </div>
+                    <div class="perk2">
+                        <img src="../img/starr.png" alt="Exclusive Offers">
+                        <p>Exclusive Offers</p>
+                    </div>
+                    <div class="perk2">
+                        <img src="../img/images.png" alt="Better Shopping Experience">
+                        <p>Better Shopping Experience</p>
+                    </div>
+                </div>
+                <form>
+                    <input type="email" placeholder="Email" required>
+                    <button type="submit">Next</button>
+                </form>
+                <p>Already a member? <a href="#" >SIGN IN</a></p>
+                <p class="terms">
+                    By signing up for emails, you agree to the Converse <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

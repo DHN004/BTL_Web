@@ -1,0 +1,120 @@
+/* Custom Styles */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+}
+
+.header-top {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.header-top img {
+  margin-right: 5px;
+}
+
+.header-nav {
+  margin-top: 10px;
+}
+
+.header-nav a {
+  color: #333;
+  margin-right: 15px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
+}
+
+.header-nav .text-danger {
+  color: red;
+}
+
+.main-title img {
+  width: 100%;
+}
+
+.filters {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.filters h5 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.filters .form-check-label {
+  margin-left: 5px;
+}
+
+.color-swatch {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+.color-swatch:hover {
+  border: 1px solid #333;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+/* Product Card */
+.card {
+  border: none;
+}
+
+.card-img-top {
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  background-color: #fff;
+}
+.card-img-top:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.card-body {
+  background-color: #f8f9fa;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .header-top,
+  .header-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-nav a {
+    margin: 5px 0;
+  }
+}
